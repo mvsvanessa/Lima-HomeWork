@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<title>Projeto 1</title>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+		<link href="estilo/style.css" rel="stylesheet"/>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+		<meta name="description" content="Descriçaõ do meu website">
+		<meta name="keywords" content="palavras-chave,do,meu,site">
+	</head>
+	<body>
+
+		<header>
+			<div class="center">
+			<div class="logo">Logomarca</div><!--logo-->
+			<nav class="desktop">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Sobre</a></li>
+					<li><a href="">Serviços</a></li>
+					<li><a href="">Contato</a></li>
+				</ul>
+			</nav>
+			<nav class="mobile right">
+				<div class="botao-menu-mobile"></div>
+				<i class="fas fa-ellipsis-v"></i>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Sobre</a></li>
+					<li><a href="">Serviços</a></li>
+					<li><a href="">Contato</a></li>
+				</ul>
+			</nav>
+			<div class="clear"></div><!--clear-->
+		</div><!--center-->
+		</header>
+
+		<section class="banner-principal">
+			<div class="overlay"></div><!--overlay-->
+			<div class="center">
+		<form>
+			<h2><b>Qual o seu melhor email</b></h2>
+			<input type="email" name="email" required/>
+			<input type="submit" name="acao" value="Cadastrar!">
+		</form>
+	</div><!--center-->
+		</section><!--banner-principal-->
+
+		<section class="descricao-autor">
+			<br>
+			<div class="center">
+			<div class="w50 left">
+			<h2>Vanessa Mendes V. da Silva</h2>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula, commodo dui in, commodo ante. Nulla egestas varius ipsum, lacinia consequat arcu iaculis vitae. </p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula, commodo dui in, commodo ante. Nulla egestas varius ipsum, lacinia consequat arcu iaculis vitae. Mauris fermentum at dui aliquet tempor.</p>
+		</div><!--w50-->
+		<div class="w50 left">
+			<!--imagem-->
+			<img src="imagens/original.png" width="300px" height="300px">
+		</div><!--w50-->
+		<div class="clear"></div>
+	</div><!--center-->
+		</section><!--descricao autor-->
+
+		<br>
+
+		<section class="especialidades">
+			
+			<div class="center">
+				<h2 class="title"> Especialidades</h2>
+				<br>
+				<div class="w33 left box-especialidades">
+					<h3><i class="fab fa-css3"></i></h3>
+					<br>
+					<h3>CSS3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo.</p>
+
+				</div><!--box-->
+
+				<div class="w33 left box-especialidades">
+					<h3><i class="fab fa-html5"></i></h3>
+					<h3>HTML5</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo.</p>
+
+				</div><!--box-->
+
+				<div class="w33 left box-especialidades">
+					<h3><i class="fab fa-java"></i></h3>
+					<h3>Java</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo.</p>
+
+				</div>
+			</section>
+
+				<section class="extras">
+
+					<br><br>
+
+					<div class="center">
+						<div class="w50 left depoimentos-container">
+						   <h2 class="title">Depoimentos</h2>
+						   <br>
+						   <div class="depoimento-single">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo.</p>
+							<p class="nome-autor">Lorem Ipsum</p>
+						</div>
+							<div class="depoimento-single">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo.</p>
+							<p class="nome-autor">Lorem Ipsum</p>
+						</div>
+							<div class="depoimento-single">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo.</p>
+							<p class="nome-autor">Lorem Ipsum</p>
+						</div>
+						</div>
+						
+						<div class="w50 left servicos-container">
+						   <h2 class="title">Serviços</h2>
+						   <br>
+						   <div class="servicos">
+						  <ul>
+						  	<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo.</li>
+						  	<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo.</li>
+						  	<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo.</li>
+						   </ul>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</section>
+
+			<footer>
+				<div class="center">
+					<p>Todos os direitos reservados</p>
+				</div>
+		</footer>
+	</div>
+</section>
+</body>
+</html>
+
+</body>
+</html>

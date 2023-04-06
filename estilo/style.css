@@ -1,0 +1,285 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/**Boot CSS**/
+img{
+    width: 100%;
+    max-width: 400px;
+}
+
+.center{
+    max-width: 1280px;
+    padding:0 2%;
+    margin: 0 auto;
+
+}
+.w33{
+    width: 33.3%;
+}
+.w50{
+    padding: 0, 2%;
+    width: 50%;
+
+}
+.left{
+    float: left;
+
+}
+.rigth{
+    float: right;
+
+}
+.clear{
+    clear: both;
+
+}
+
+/**estilização do site**/
+
+
+header{
+    background-color: #B22222;
+    padding: 20px 0;
+}
+.logo{
+    color: white;
+}
+.mobile{
+    display: none;
+}
+nav.desktop ul{
+    position: relative;
+    top: 6px;
+    list-style-type: none;
+}
+nav.desktop li{
+    font-weight: 300;
+    font-size: 15px;
+    padding:0 30px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+nav.desktop a{
+    color: white;
+    text-decoration: none;
+}
+nav.desktop a:hover{
+    text-decoration: underline;
+    
+}
+section.banner-principal{
+    width: 100%;
+    height: 600px;
+    background-image: url('../imagens/leaves.gif');
+    background-size: cover;
+    position: relative;
+    
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(51,51,51,0.4);
+}
+section.banner-principal form{
+    width: 94%;
+    max-width: 600px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+
+}
+section.banner-principal form h2{
+color: white;
+font-weight: 300;
+font-size: 30px;
+text-align: center;
+
+}
+section.banner-principal form input[type = email]{
+    border: none;
+    width: 100%;
+    height: 66px;
+    background: #FFF8DC;
+    color: #D2691E;
+    font-size: 22px;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+section.banner-principal form input[type = submit]{
+    width: 100%;
+    height: 66px;
+    background: #A52A2A;
+    color:white;
+    font-size: 30px;
+    cursor: pointer;
+    border: 0;
+    margin-top: 10px;
+
+}
+
+section.descricao-autora{
+    padding: 40px 0;
+
+}
+section.descricao-autora h2{
+    font-size: 28px;
+    font-weight: 400;
+}
+section.descricao-autora p{
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+section.especialidades{
+    padding: 40px 0;
+    background:#FFDAB9;
+}
+section.especialidades h2.title{
+    font-size: 30px;
+    color: #A0522D;
+    text-align: center;
+}
+.box-especialidades {
+    margin: 40px 0;
+    padding: 0 30px;
+    text-align: center;
+
+}
+.box-especialidades h3{
+    font-size: 40px;
+    color: orange;
+}
+.box-especialidades h4{
+    font-weight: 300;
+    font-size: 25px;
+    color: #F4A460;
+
+}
+.box-especialidades p{
+    text-align: justify;
+    color: #444;
+    font-size: 15px;
+    margin-top: 10px;
+}
+section.extras{
+    padding:30px 0;
+    background: #800000;
+
+}
+.servicos-conteiner,.depoimentos-conteiner{
+    padding: 0 50px;
+}
+section.extras .title{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.depoimento-single{
+    padding: 15px 0;
+    border-bottom: 1px solid #FFFACD;
+}
+p.depoimento-descricao{
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+p.nome-autor{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.servicos ul{
+    margin:20px 0;
+    
+}
+.servicos li{
+    text-align: justify;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+footer{
+background-color:#8B4513;
+padding: 25px 0;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+@media screen and (max-width: 768px){
+    img{
+    float: none !important;
+    display: block;
+    margin: 0 auto;
+    }
+    .w50{
+    padding: 20px;
+    width: 100%;
+    }
+    .w33{
+        width: 100%;
+        padding: 20px;
+    }
+    .box-especialidades{
+        padding: 40px 20px;
+        margin: 0;
+    }
+}@media screen and ( max-width: 700px){
+    nav.desktop{
+        display: none;
+    }
+    nav.mobile{
+        display: block;
+    }
+    .botao-menu-mobile{
+        font-size: 24px;
+        cursor: pointer;
+        color: white;
+    }
+    nav.mobile ul{
+        z-index: 3;
+        position: absolute;
+        left: 0;
+        top: 55px;
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+    nav.mobile li{
+        font-weight: 300;
+        width: 100%;
+        display: block;
+        background: white;
+        border-bottom: 1px solid#ccc;
+        padding: 8px 0;
+        font-size: 15px;
+    }
+    nav.mobile li a {
+        display: block;
+        color:black;
+        text-decoration: none;
+    }
+}
+
+
+
